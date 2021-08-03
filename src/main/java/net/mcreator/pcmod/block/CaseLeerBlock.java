@@ -26,24 +26,24 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.pcmod.itemgroup.MainboardsItemGroup;
+import net.mcreator.pcmod.itemgroup.PCModItemGroup;
 import net.mcreator.pcmod.PcmodModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @PcmodModElements.ModElement.Tag
-public class MainboardBlock extends PcmodModElements.ModElement {
-	@ObjectHolder("pcmod:mainboard")
+public class CaseLeerBlock extends PcmodModElements.ModElement {
+	@ObjectHolder("pcmod:case_leer")
 	public static final Block block = null;
-	public MainboardBlock(PcmodModElements instance) {
-		super(instance, 7);
+	public CaseLeerBlock(PcmodModElements instance) {
+		super(instance, 16);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MainboardsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(PCModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -58,7 +58,7 @@ public class MainboardBlock extends PcmodModElements.ModElement {
 					.doesNotBlockMovement().notSolid().setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("mainboard");
+			setRegistryName("case_leer");
 		}
 
 		@Override

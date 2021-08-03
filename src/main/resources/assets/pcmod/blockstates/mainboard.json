@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "pcmod:block/mainboard"
+    },
+    "facing=east": {
+      "model": "pcmod:block/mainboard",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/mainboard",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/mainboard",
+      "y": 270
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "pcmod:block/pc_case",
+  "parent": "pcmod:block/case_mainboard_leer",
   "display": {
     "thirdperson": {
       "rotation": [

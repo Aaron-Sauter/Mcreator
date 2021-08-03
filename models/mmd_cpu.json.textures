@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "case"
+        "0": "mmd_cpu"
       },
       "name": "default"
     }

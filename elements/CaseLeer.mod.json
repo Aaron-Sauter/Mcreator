@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "mainboard",
+    "texture": "case",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "mainboard:default",
+    "customModelName": "case:default",
     "rotationMode": 1,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Mainboard",
+    "name": "Case Leer",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Mainboards"
+      "value": "CUSTOM:PCMod"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -103,7 +103,11 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

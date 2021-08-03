@@ -4,7 +4,7 @@
   "definition": {
     "name": "PC Mod",
     "icon": {
-      "value": "Blocks.ENDER_CHEST"
+      "value": "CUSTOM:CaseLeer"
     },
     "showSearch": false
   }

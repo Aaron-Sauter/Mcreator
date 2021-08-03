@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/case_mainboard",
+  "textures": {
+    "all": "pcmod:blocks/case_mainboard",
+    "particle": "pcmod:blocks/case_mainboard",
+    "2": "pcmod:blocks/case_mainboard"
+  }
+}

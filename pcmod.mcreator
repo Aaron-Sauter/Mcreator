@@ -74,15 +74,6 @@
       "registry_name": "mainboards"
     },
     {
-      "name": "PCCase",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pc_case"
-    },
-    {
       "name": "PCGUI",
       "type": "gui",
       "sortid": 11,
@@ -159,31 +150,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pc_mod"
+    },
+    {
+      "name": "CaseLeer",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "case_leer"
+    },
+    {
+      "name": "CaseMainboardLeer",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "case_mainboard_leer"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabgrafikkarten": "graphic cards",
-      "block.pcmod.mmd_1050": "MMD 1050",
-      "block.pcmod.mrx_5500": "MRX 5500",
-      "itemGroup.tabmainboards": "mainboards",
-      "block.pcmod.mintel_250": "Mintel 250",
-      "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.pc_case": "PC Case",
-      "itemGroup.tabprozesoren": "processors",
-      "block.pcmod.mmd_100": "MMD 100",
-      "block.pcmod.mainboard": "mainboard"
-    },
-    "de_de": {
       "itemGroup.tabgrafikkarten": "Grafikkarten",
       "block.pcmod.mmd_1050": "MMD 1050",
+      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "itemGroup.tabmainboards": "Mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
       "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.pc_case": "PC Gehäuse",
+      "block.pcmod.case_leer": "Case Leer",
+      "itemGroup.tabprozesoren": "processors",
+      "block.pcmod.mmd_100": "MMD 100",
+      "block.pcmod.mainboard": "Mainboard"
+    },
+    "de_de": {
+      "itemGroup.tabgrafikkarten": "Grafikkarten",
+      "block.pcmod.mmd_1050": "MMD 1050",
+      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
+      "block.pcmod.mrx_5500": "MRX 5500",
+      "itemGroup.tabmainboards": "Mainboards",
+      "block.pcmod.mintel_250": "Mintel 250",
+      "itemGroup.tabpc_mod": "PC Mod",
+      "block.pcmod.case_leer": "Case Leer",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100",
       "block.pcmod.mainboard": "Mainboard"

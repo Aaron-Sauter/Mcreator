@@ -33,11 +33,11 @@ import java.util.List;
 import java.util.Collections;
 
 @PcmodModElements.ModElement.Tag
-public class PCCaseBlock extends PcmodModElements.ModElement {
-	@ObjectHolder("pcmod:pc_case")
+public class CaseMainboardLeerBlock extends PcmodModElements.ModElement {
+	@ObjectHolder("pcmod:case_mainboard_leer")
 	public static final Block block = null;
-	public PCCaseBlock(PcmodModElements instance) {
-		super(instance, 10);
+	public CaseMainboardLeerBlock(PcmodModElements instance) {
+		super(instance, 17);
 	}
 
 	@Override
@@ -54,10 +54,10 @@ public class PCCaseBlock extends PcmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.IRON).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("pc_case");
+			setRegistryName("case_mainboard_leer");
 		}
 
 		@Override
