@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.pcmod.block.MRX5500Block;
+import net.mcreator.pcmod.block.MainboardBlock;
 import net.mcreator.pcmod.PcmodModElements;
 
 @PcmodModElements.ModElement.Tag
-public class GrafikkartenItemGroup extends PcmodModElements.ModElement {
-	public GrafikkartenItemGroup(PcmodModElements instance) {
-		super(instance, 1);
+public class MainboardsItemGroup extends PcmodModElements.ModElement {
+	public MainboardsItemGroup(PcmodModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabgrafikkarten") {
+		tab = new ItemGroup("tabmainboards") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(MRX5500Block.block, (int) (1));
+				return new ItemStack(MainboardBlock.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

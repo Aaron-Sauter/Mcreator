@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "MMD 100",
+    "name": "MMD 1050",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Grafikkarten"
+      "value": "CUSTOM:Prozesoren"
     },
     "destroyTool": "Not specified",
     "customDrop": {

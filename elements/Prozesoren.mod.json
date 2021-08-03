@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "tab",
   "definition": {
-    "name": "Grafikkarten",
+    "name": "Prozesoren",
     "icon": {
-      "value": "CUSTOM:MRX5500"
+      "value": "CUSTOM:MMD1050"
     },
     "showSearch": false
   }

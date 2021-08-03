@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "tab",
   "definition": {
-    "name": "Grafikkarten",
+    "name": "Mainboards",
     "icon": {
-      "value": "CUSTOM:MRX5500"
+      "value": "CUSTOM:Mainboard"
     },
     "showSearch": false
   }

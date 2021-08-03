@@ -54,6 +54,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mainboard"
+    },
+    {
+      "name": "Prozesoren",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prozesoren"
+    },
+    {
+      "name": "Mainboards",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mainboards"
     }
   ],
   "variable_elements": [],
@@ -61,9 +79,11 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabgrafikkarten": "Grafikkarten",
-      "block.pcmod.mmd_1050": "MMD 100",
+      "block.pcmod.mmd_1050": "MMD 1050",
       "block.pcmod.mrx_5500": "MRX 5500",
+      "itemGroup.tabmainboards": "Mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
+      "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100",
       "block.pcmod.mainboard": "Mainboard"
     }

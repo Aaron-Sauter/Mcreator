@@ -23,7 +23,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.pcmod.itemgroup.GrafikkartenItemGroup;
+import net.mcreator.pcmod.itemgroup.ProzesorenItemGroup;
 import net.mcreator.pcmod.PcmodModElements;
 
 import java.util.List;
@@ -40,8 +40,7 @@ public class MMD1050Block extends PcmodModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(GrafikkartenItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ProzesorenItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
