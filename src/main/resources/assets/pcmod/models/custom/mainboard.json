@@ -686,6 +686,65 @@
       }
     }
   ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        5.5,
+        6.75
+      ],
+      "scale": [
+        0.86,
+        0.86,
+        0.86
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        5,
+        6.5
+      ],
+      "scale": [
+        0.86,
+        0.86,
+        0.86
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        7,
+        0,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        7,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        6.25,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -8
+      ]
+    }
+  },
   "groups": [
     {
       "name": "group",
