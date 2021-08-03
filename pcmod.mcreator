@@ -159,6 +159,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pc_mod"
+    },
+    {
+      "name": "PCChooseProzessor",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_choose_prozessor"
     }
   ],
   "variable_elements": [],
