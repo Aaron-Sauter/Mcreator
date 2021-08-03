@@ -30,7 +30,7 @@ public class MainboardBlock extends PcmodModElements.ModElement {
 	@ObjectHolder("pcmod:mainboard")
 	public static final Block block = null;
 	public MainboardBlock(PcmodModElements instance) {
-		super(instance, 5);
+		super(instance, 7);
 	}
 
 	@Override

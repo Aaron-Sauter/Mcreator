@@ -38,15 +38,6 @@
       "registry_name": "mmd_100"
     },
     {
-      "name": "Mainboard",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mainboard"
-    },
-    {
       "name": "MMD1050",
       "type": "block",
       "sortid": 6,
@@ -54,6 +45,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mmd_1050"
+    },
+    {
+      "name": "Mainboard",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mainboard"
     }
   ],
   "variable_elements": [],

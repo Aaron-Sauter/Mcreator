@@ -3,6 +3,6 @@
   "textures": {
     "all": "pcmod:blocks/mainboard",
     "particle": "pcmod:blocks/mainboard",
-    "1": "pcmod:blocks/minetel_cpu"
+    "0": "pcmod:blocks/mainboard"
   }
 }
