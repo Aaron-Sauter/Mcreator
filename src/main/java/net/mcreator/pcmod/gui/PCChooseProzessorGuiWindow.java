@@ -31,8 +31,8 @@ public class PCChooseProzessorGuiWindow extends ContainerScreen<PCChooseProzesso
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 423;
+		this.ySize = 236;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("pcmod:textures/pc_choose_prozessor.png");
 	@Override
@@ -70,8 +70,8 @@ public class PCChooseProzessorGuiWindow extends ContainerScreen<PCChooseProzesso
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "PC Configurator", 6, 7, -12829636);
-		this.font.drawString(ms, "Choose your prozessor type", 6, 25, -12829636);
+		this.font.drawString(ms, "PC Configurator", 13, 15, -12829636);
+		this.font.drawString(ms, "Choose your prozessor type", 139, 33, -12829636);
 	}
 
 	@Override
@@ -84,13 +84,13 @@ public class PCChooseProzessorGuiWindow extends ContainerScreen<PCChooseProzesso
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 6, this.guiTop + 52, 55, 20, new StringTextComponent("Mintel"), e -> {
+		this.addButton(new Button(this.guiLeft + 130, this.guiTop + 78, 55, 20, new StringTextComponent("Mintel"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseProzessorGui.ButtonPressedMessage(0, x, y, z));
 				PCChooseProzessorGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 123, this.guiTop + 52, 40, 20, new StringTextComponent("MMD"), e -> {
+		this.addButton(new Button(this.guiLeft + 229, this.guiTop + 78, 40, 20, new StringTextComponent("MMD"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseProzessorGui.ButtonPressedMessage(1, x, y, z));
 				PCChooseProzessorGui.handleButtonAction(entity, 1, x, y, z);

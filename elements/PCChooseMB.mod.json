@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "gui",
   "definition": {
-    "type": 1,
-    "width": 176,
-    "height": 166,
+    "type": 0,
+    "width": 422,
+    "height": 236,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -19,8 +19,8 @@
             "falpha": 0.0
           },
           "name": "PC Configurator",
-          "x": 132,
-          "y": 44
+          "x": 15,
+          "y": 17
         }
       },
       {
@@ -32,8 +32,8 @@
             "falpha": 0.0
           },
           "name": "Choose your Mainboard",
-          "x": 132,
-          "y": 62
+          "x": 141,
+          "y": 26
         }
       },
       {
@@ -43,8 +43,8 @@
           "width": 70,
           "height": 20,
           "name": "Mainboard",
-          "x": 132,
-          "y": 80
+          "x": 15,
+          "y": 44
         }
       }
     ]

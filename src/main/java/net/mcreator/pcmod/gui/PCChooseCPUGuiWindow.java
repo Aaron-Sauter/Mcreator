@@ -31,8 +31,8 @@ public class PCChooseCPUGuiWindow extends ContainerScreen<PCChooseCPUGui.GuiCont
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 423;
+		this.ySize = 236;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("pcmod:textures/pc_choose_cpu.png");
 	@Override
@@ -70,8 +70,8 @@ public class PCChooseCPUGuiWindow extends ContainerScreen<PCChooseCPUGui.GuiCont
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "PC Configurator", 6, 7, -12829636);
-		this.font.drawString(ms, "Choose your CPU", 6, 25, -12829636);
+		this.font.drawString(ms, "PC Configurator", 13, 15, -12829636);
+		this.font.drawString(ms, "Choose your CPU", 166, 24, -12829636);
 	}
 
 	@Override
@@ -84,19 +84,19 @@ public class PCChooseCPUGuiWindow extends ContainerScreen<PCChooseCPUGui.GuiCont
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 105, this.guiTop + 52, 60, 20, new StringTextComponent("MMD100"), e -> {
+		this.addButton(new Button(this.guiLeft + 337, this.guiTop + 87, 60, 20, new StringTextComponent("MMD100"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(0, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 6, this.guiTop + 52, 55, 20, new StringTextComponent("Mintel250"), e -> {
+		this.addButton(new Button(this.guiLeft + 22, this.guiTop + 60, 55, 20, new StringTextComponent("Mintel250"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(1, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 105, this.guiTop + 25, 60, 20, new StringTextComponent("MMD1050"), e -> {
+		this.addButton(new Button(this.guiLeft + 337, this.guiTop + 60, 60, 20, new StringTextComponent("MMD1050"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(2, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 2, x, y, z);

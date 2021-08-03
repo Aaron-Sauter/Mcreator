@@ -31,8 +31,8 @@ public class PCChooseMBGuiWindow extends ContainerScreen<PCChooseMBGui.GuiContai
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 422;
+		this.ySize = 236;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("pcmod:textures/pc_choose_mb.png");
 	@Override
@@ -70,8 +70,8 @@ public class PCChooseMBGuiWindow extends ContainerScreen<PCChooseMBGui.GuiContai
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "PC Configurator", 6, 7, -12829636);
-		this.font.drawString(ms, "Choose your Mainboard", 6, 25, -12829636);
+		this.font.drawString(ms, "PC Configurator", 12, 15, -12829636);
+		this.font.drawString(ms, "Choose your Mainboard", 138, 24, -12829636);
 	}
 
 	@Override
@@ -84,7 +84,7 @@ public class PCChooseMBGuiWindow extends ContainerScreen<PCChooseMBGui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 6, this.guiTop + 43, 70, 20, new StringTextComponent("Mainboard"), e -> {
+		this.addButton(new Button(this.guiLeft + 12, this.guiTop + 42, 70, 20, new StringTextComponent("Mainboard"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseMBGui.ButtonPressedMessage(0, x, y, z));
 				PCChooseMBGui.handleButtonAction(entity, 0, x, y, z);

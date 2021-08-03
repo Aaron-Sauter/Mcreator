@@ -31,8 +31,8 @@ public class PCChooseGPUGuiWindow extends ContainerScreen<PCChooseGPUGui.GuiCont
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 422;
+		this.ySize = 237;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("pcmod:textures/pc_choose_gpu.png");
 	@Override
@@ -70,8 +70,8 @@ public class PCChooseGPUGuiWindow extends ContainerScreen<PCChooseGPUGui.GuiCont
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "PC Configurator", 6, 7, -12829636);
-		this.font.drawString(ms, "Choose your GPU", 6, 25, -12829636);
+		this.font.drawString(ms, "PC Configurator", 12, 15, -12829636);
+		this.font.drawString(ms, "Choose your GPU", 165, 24, -12829636);
 	}
 
 	@Override
@@ -84,7 +84,7 @@ public class PCChooseGPUGuiWindow extends ContainerScreen<PCChooseGPUGui.GuiCont
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 6, this.guiTop + 52, 60, 20, new StringTextComponent("MRX5500"), e -> {
+		this.addButton(new Button(this.guiLeft + 336, this.guiTop + 195, 60, 20, new StringTextComponent("MRX5500"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseGPUGui.ButtonPressedMessage(0, x, y, z));
 				PCChooseGPUGui.handleButtonAction(entity, 0, x, y, z);
