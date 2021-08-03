@@ -72,6 +72,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mainboards"
+    },
+    {
+      "name": "PCCase",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_case"
     }
   ],
   "variable_elements": [],
@@ -83,6 +92,7 @@
       "block.pcmod.mrx_5500": "MRX 5500",
       "itemGroup.tabmainboards": "Mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
+      "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100",
       "block.pcmod.mainboard": "Mainboard"

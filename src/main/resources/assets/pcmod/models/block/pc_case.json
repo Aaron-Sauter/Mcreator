@@ -1,0 +1,15 @@
+{
+  "parent": "pcmod:custom/case",
+  "textures": {
+    "all": "pcmod:blocks/back",
+    "particle": "pcmod:blocks/back",
+    "0": "pcmod:blocks/texture",
+    "1": "pcmod:blocks/texture2",
+    "2": "pcmod:blocks/up",
+    "3": "pcmod:blocks/back",
+    "4": "pcmod:blocks/te",
+    "5": "pcmod:blocks/fan",
+    "6": "pcmod:blocks/fan-inside",
+    "missing": "pcmod:blocks/back"
+  }
+}
