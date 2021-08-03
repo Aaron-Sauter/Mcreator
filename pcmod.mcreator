@@ -152,6 +152,15 @@
       "registry_name": "pc_mod"
     },
     {
+      "name": "CaseMainboardLeer",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "case_mainboard_leer"
+    },
+    {
       "name": "CaseLeer",
       "type": "block",
       "sortid": 16,
@@ -161,40 +170,37 @@
       "registry_name": "case_leer"
     },
     {
-      "name": "CaseMainboardLeer",
-      "type": "block",
-      "sortid": 17,
+      "name": "PCChooseProzessor",
+      "type": "gui",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "case_mainboard_leer"
+      "registry_name": "pc_choose_prozessor"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabgrafikkarten": "Grafikkarten",
+      "itemGroup.tabgrafikkarten": "graphic cards",
       "block.pcmod.mmd_1050": "MMD 1050",
-      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
-      "itemGroup.tabmainboards": "Mainboards",
+      "itemGroup.tabmainboards": "mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
       "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.case_leer": "Case Leer",
+      "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "processors",
       "block.pcmod.mmd_100": "MMD 100",
-      "block.pcmod.mainboard": "Mainboard"
+      "block.pcmod.mainboard": "mainboard"
     },
     "de_de": {
       "itemGroup.tabgrafikkarten": "Grafikkarten",
       "block.pcmod.mmd_1050": "MMD 1050",
-      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "itemGroup.tabmainboards": "Mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
       "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.case_leer": "Case Leer",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100",
       "block.pcmod.mainboard": "Mainboard"
