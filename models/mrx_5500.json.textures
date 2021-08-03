@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mrx_5500"
+      },
+      "name": "default"
+    }
+  }
+}

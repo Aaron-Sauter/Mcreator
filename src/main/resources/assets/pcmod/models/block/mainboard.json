@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/mainboard",
+  "textures": {
+    "all": "pcmod:blocks/mainboard",
+    "particle": "pcmod:blocks/mainboard",
+    "1": "pcmod:blocks/minetel_cpu"
+  }
+}

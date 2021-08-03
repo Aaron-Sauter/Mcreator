@@ -1,0 +1,93 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MRX5500",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mrx_5500"
+    },
+    {
+      "name": "Grafikkarten",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grafikkarten"
+    },
+    {
+      "name": "MINTEL250",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mintel_250"
+    },
+    {
+      "name": "MMD100",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mmd_100"
+    },
+    {
+      "name": "Mainboard",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mainboard"
+    },
+    {
+      "name": "MMD1050",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mmd_1050"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabgrafikkarten": "Grafikkarten",
+      "block.pcmod.mmd_1050": "MMD 100",
+      "block.pcmod.mrx_5500": "MRX 5500",
+      "block.pcmod.mintel_250": "Mintel 250",
+      "block.pcmod.mmd_100": "MMD 100",
+      "block.pcmod.mainboard": "Mainboard"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pcmod",
+    "modName": "PC-MOD",
+    "version": "1.0.0",
+    "author": "mrene, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.pcmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

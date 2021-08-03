@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/mrx_5500",
+  "textures": {
+    "all": "pcmod:blocks/mrx_5500",
+    "particle": "pcmod:blocks/mrx_5500",
+    "0": "pcmod:blocks/mrx_5500"
+  }
+}
