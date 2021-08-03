@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/case_mainboard_cpu",
+  "textures": {
+    "all": "pcmod:blocks/cube_mainboard_cpu",
+    "particle": "pcmod:blocks/cube_mainboard_cpu",
+    "3": "pcmod:blocks/cube_mainboard_cpu"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pcmod:block/case_main_board_cpu"
+    }
+  }
+}

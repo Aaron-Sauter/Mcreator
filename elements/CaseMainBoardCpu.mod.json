@@ -2,15 +2,15 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "case_mainboard",
+    "texture": "cube_mainboard_cpu",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "case_mainboard:default",
-    "rotationMode": 2,
+    "customModelName": "case_mainboard_cpu:default",
+    "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Case Mainboard Leer",
+    "name": "Case MainBoard Cpu",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
