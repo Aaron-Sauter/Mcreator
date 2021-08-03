@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "mrx_5500:default",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
