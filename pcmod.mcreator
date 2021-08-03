@@ -81,6 +81,84 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pc_case"
+    },
+    {
+      "name": "PCGUI",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pcgui"
+    },
+    {
+      "name": "PCCaseOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_case_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PCChooseCPU",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_choose_cpu"
+    },
+    {
+      "name": "PCChooseGPU",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_choose_gpu"
+    },
+    {
+      "name": "PCChooseMB",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_choose_mb"
+    },
+    {
+      "name": "PCMod",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pc_mod"
     }
   ],
   "variable_elements": [],
@@ -92,6 +170,7 @@
       "block.pcmod.mrx_5500": "MRX 5500",
       "itemGroup.tabmainboards": "Mainboards",
       "block.pcmod.mintel_250": "Mintel 250",
+      "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100",

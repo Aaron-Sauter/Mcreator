@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "PC Mod",
+    "icon": {
+      "value": "Blocks.ENDER_CHEST"
+    },
+    "showSearch": false
+  }
+}
