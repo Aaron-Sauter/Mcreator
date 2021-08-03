@@ -54,6 +54,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mmd_1050"
+    },
+    {
+      "name": "TEST",
+      "type": "overlay",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
