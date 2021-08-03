@@ -10,7 +10,7 @@
     "textureBack": "back",
     "renderType": 2,
     "customModelName": "case:default",
-    "rotationMode": 4,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",

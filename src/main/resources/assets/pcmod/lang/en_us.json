@@ -1,12 +1,12 @@
 {
-  "itemGroup.tabgrafikkarten": "Grafikkarten",
+  "itemGroup.tabgrafikkarten": "graphic cards",
   "block.pcmod.mmd_1050": "MMD 1050",
   "block.pcmod.mrx_5500": "MRX 5500",
-  "itemGroup.tabmainboards": "Mainboards",
+  "itemGroup.tabmainboards": "mainboards",
   "block.pcmod.mintel_250": "Mintel 250",
   "itemGroup.tabpc_mod": "PC Mod",
   "block.pcmod.pc_case": "PC Case",
-  "itemGroup.tabprozesoren": "Prozesoren",
+  "itemGroup.tabprozesoren": "processors",
   "block.pcmod.mmd_100": "MMD 100",
-  "block.pcmod.mainboard": "Mainboard"
+  "block.pcmod.mainboard": "mainboard"
 }
