@@ -1,6 +1,6 @@
 {
-  "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
-  "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
+  "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
+  "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
   "block.pcmod.mrx_5500": "MRX 5500",
   "block.pcmod.mintel_250": "Mintel 250",
   "block.pcmod.mainboard": "Mainboard",
@@ -9,7 +9,7 @@
   "itemGroup.tabgehause": "Gehause",
   "itemGroup.tabmainboards": "Mainboards",
   "itemGroup.tabpc_mod": "PC Mod",
-  "block.pcmod.case_leer": "Gehäuse Leer",
+  "block.pcmod.case_leer": "Case Leer",
   "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
   "itemGroup.tabprozesoren": "Prozesoren",
   "block.pcmod.mmd_100": "MMD 100"
