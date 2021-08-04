@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "table",
+        "1": "saule"
+      },
+      "name": "default"
+    }
+  }
+}

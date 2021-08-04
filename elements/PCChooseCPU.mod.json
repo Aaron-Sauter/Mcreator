@@ -2,11 +2,11 @@
   "_fv": 18,
   "_type": "gui",
   "definition": {
-    "type": 0,
+    "type": 1,
     "width": 423,
     "height": 236,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetY": 30,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -43,7 +43,7 @@
           "width": 60,
           "height": 20,
           "name": "MMD100",
-          "x": 339,
+          "x": 231,
           "y": 89
         }
       },
@@ -54,7 +54,7 @@
           "width": 55,
           "height": 20,
           "name": "Mintel250",
-          "x": 24,
+          "x": 141,
           "y": 62
         }
       },
@@ -65,7 +65,7 @@
           "width": 60,
           "height": 20,
           "name": "MMD1050",
-          "x": 339,
+          "x": 231,
           "y": 62
         }
       }

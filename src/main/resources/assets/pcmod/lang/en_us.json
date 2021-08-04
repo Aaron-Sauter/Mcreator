@@ -12,6 +12,7 @@
   "block.pcmod.case_leer": "Case empty",
   "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
   "block.pcmod.pc_case": "PC Case",
+  "block.pcmod.testblock": "TESTBLOCK",
   "itemGroup.tabprozesoren": "Prozesoren",
   "block.pcmod.mmd_100": "MMD 100"
 }

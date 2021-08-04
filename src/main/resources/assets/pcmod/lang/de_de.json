@@ -11,6 +11,7 @@
   "itemGroup.tabpc_mod": "PC Mod",
   "block.pcmod.case_leer": "Gehäuse Leer",
   "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
+  "block.pcmod.testblock": "TESTBLOCK",
   "itemGroup.tabprozesoren": "Prozesoren",
   "block.pcmod.mmd_100": "MMD 100"
 }

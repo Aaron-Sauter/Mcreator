@@ -146,16 +146,6 @@
       "path": "~/GUI"
     },
     {
-      "name": "PCChooseMB",
-      "type": "gui",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pc_choose_mb",
-      "path": "~/GUI"
-    },
-    {
       "name": "PCMod",
       "type": "tab",
       "sortid": 15,
@@ -224,6 +214,16 @@
       "ids": {},
       "registry_name": "gehause",
       "path": "~/Andere"
+    },
+    {
+      "name": "TESTBLOCK",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testblock",
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
@@ -243,6 +243,7 @@
       "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
       "block.pcmod.pc_case": "PC Case",
+      "block.pcmod.testblock": "TESTBLOCK",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     },
@@ -259,6 +260,7 @@
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Gehäuse Leer",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
+      "block.pcmod.testblock": "TESTBLOCK",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     }

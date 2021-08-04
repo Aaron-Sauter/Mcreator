@@ -84,19 +84,19 @@ public class PCChooseCPUGuiWindow extends ContainerScreen<PCChooseCPUGui.GuiCont
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 337, this.guiTop + 87, 60, 20, new StringTextComponent("MMD100"), e -> {
+		this.addButton(new Button(this.guiLeft + 229, this.guiTop + 87, 60, 20, new StringTextComponent("MMD100"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(0, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 22, this.guiTop + 60, 55, 20, new StringTextComponent("Mintel250"), e -> {
+		this.addButton(new Button(this.guiLeft + 139, this.guiTop + 60, 55, 20, new StringTextComponent("Mintel250"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(1, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 337, this.guiTop + 60, 60, 20, new StringTextComponent("MMD1050"), e -> {
+		this.addButton(new Button(this.guiLeft + 229, this.guiTop + 60, 60, 20, new StringTextComponent("MMD1050"), e -> {
 			if (true) {
 				PcmodMod.PACKET_HANDLER.sendToServer(new PCChooseCPUGui.ButtonPressedMessage(2, x, y, z));
 				PCChooseCPUGui.handleButtonAction(entity, 2, x, y, z);

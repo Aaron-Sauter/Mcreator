@@ -1,0 +1,9 @@
+{
+  "parent": "pcmod:custom/pc",
+  "textures": {
+    "all": "pcmod:blocks/pc-table",
+    "particle": "pcmod:blocks/pc-table",
+    "1": "pcmod:blocks/pc",
+    "2": "pcmod:blocks/pc-table"
+  }
+}
