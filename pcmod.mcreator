@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mrx_5500"
+      "registry_name": "mrx_5500",
+      "path": "~/GrafikKarten"
     },
     {
       "name": "Grafikkarten",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "grafikkarten"
+      "registry_name": "grafikkarten",
+      "path": "~/GrafikKarten"
     },
     {
       "name": "MINTEL250",
@@ -26,7 +28,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mintel_250"
+      "registry_name": "mintel_250",
+      "path": "~/CPU"
     },
     {
       "name": "MMD100",
@@ -35,7 +38,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mmd_100"
+      "registry_name": "mmd_100",
+      "path": "~/CPU"
     },
     {
       "name": "MMD1050",
@@ -44,7 +48,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mmd_1050"
+      "registry_name": "mmd_1050",
+      "path": "~/CPU"
     },
     {
       "name": "Mainboard",
@@ -53,7 +58,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mainboard"
+      "registry_name": "mainboard",
+      "path": "~/Andere"
     },
     {
       "name": "Prozesoren",
@@ -80,7 +86,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pcgui"
+      "registry_name": "pcgui",
+      "path": "~/GUI"
     },
     {
       "name": "PCCaseOnBlockRightClicked",
@@ -113,7 +120,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Gehause"
     },
     {
       "name": "PCChooseCPU",
@@ -122,7 +130,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_choose_cpu"
+      "registry_name": "pc_choose_cpu",
+      "path": "~/GUI"
     },
     {
       "name": "PCChooseGPU",
@@ -131,7 +140,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_choose_gpu"
+      "registry_name": "pc_choose_gpu",
+      "path": "~/GUI"
     },
     {
       "name": "PCChooseMB",
@@ -140,7 +150,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_choose_mb"
+      "registry_name": "pc_choose_mb",
+      "path": "~/GUI"
     },
     {
       "name": "PCMod",
@@ -158,7 +169,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "case_mainboard_leer"
+      "registry_name": "case_mainboard_leer",
+      "path": "~/Gehause"
     },
     {
       "name": "CaseLeer",
@@ -167,7 +179,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "case_leer"
+      "registry_name": "case_leer",
+      "path": "~/Gehause"
     },
     {
       "name": "PCChooseProzessor",
@@ -176,7 +189,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_choose_prozessor"
+      "registry_name": "pc_choose_prozessor",
+      "path": "~/GUI"
     },
     {
       "name": "CaseMainBoardCpu",
@@ -185,7 +199,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "case_main_board_cpu"
+      "registry_name": "case_main_board_cpu",
+      "path": "~/Gehause"
     },
     {
       "name": "MintelHD1000",
@@ -194,7 +209,17 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mintel_hd_1000"
+      "registry_name": "mintel_hd_1000",
+      "path": "~/GrafikKarten"
+    },
+    {
+      "name": "Gehause",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gehause"
     }
   ],
   "variable_elements": [],
@@ -208,12 +233,13 @@
       "block.pcmod.mainboard": "mainboard",
       "itemGroup.tabgrafikkarten": "graphic cards",
       "block.pcmod.mmd_1050": "MMD 1050",
-      "itemGroup.tabmainboards": "mainboards",
+      "itemGroup.tabgehause": "Gehause",
+      "itemGroup.tabmainboards": "Mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case Leer",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
       "block.pcmod.pc_case": "PC Case",
-      "itemGroup.tabprozesoren": "processors",
+      "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     },
     "de_de": {
@@ -224,6 +250,7 @@
       "block.pcmod.mainboard": "Mainboard",
       "itemGroup.tabgrafikkarten": "Grafikkarten",
       "block.pcmod.mmd_1050": "MMD 1050",
+      "itemGroup.tabgehause": "Gehause",
       "itemGroup.tabmainboards": "Mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case Leer",
@@ -234,7 +261,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "GrafikKarten",
+        "children": []
+      },
+      {
+        "name": "CPU",
+        "children": []
+      },
+      {
+        "name": "Gehause",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Andere",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "pcmod",

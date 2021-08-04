@@ -6,11 +6,12 @@
   "block.pcmod.mainboard": "mainboard",
   "itemGroup.tabgrafikkarten": "graphic cards",
   "block.pcmod.mmd_1050": "MMD 1050",
-  "itemGroup.tabmainboards": "mainboards",
+  "itemGroup.tabgehause": "Gehause",
+  "itemGroup.tabmainboards": "Mainboards",
   "itemGroup.tabpc_mod": "PC Mod",
   "block.pcmod.case_leer": "Case Leer",
   "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
   "block.pcmod.pc_case": "PC Case",
-  "itemGroup.tabprozesoren": "processors",
+  "itemGroup.tabprozesoren": "Prozesoren",
   "block.pcmod.mmd_100": "MMD 100"
 }
