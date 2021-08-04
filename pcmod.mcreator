@@ -252,15 +252,16 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crafter"
+      "registry_name": "crafter",
+      "path": "~/Andere"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
       "block.pcmod.crafter": "Crafter",
+      "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
       "block.pcmod.case_mainboard_leer": "Case Mainboard empty",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.schall_rot": "Schall Rot",
@@ -279,8 +280,8 @@
       "block.pcmod.mmd_100": "MMD 100"
     },
     "de_de": {
-      "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
       "block.pcmod.crafter": "Crafter",
+      "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
       "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.schall_rot": "Schall Rot",
