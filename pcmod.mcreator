@@ -19,7 +19,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grafikkarten",
-      "path": "~/GrafikKarten"
+      "path": "~/Andere"
     },
     {
       "name": "MINTEL250",
@@ -68,7 +68,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "prozesoren"
+      "registry_name": "prozesoren",
+      "path": "~/Andere"
     },
     {
       "name": "Mainboards",
@@ -77,7 +78,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mainboards"
+      "registry_name": "mainboards",
+      "path": "~/Andere"
     },
     {
       "name": "PCGUI",
@@ -121,7 +123,7 @@
           }
         ]
       },
-      "path": "~/Gehause"
+      "path": "~/Andere"
     },
     {
       "name": "PCChooseCPU",
@@ -160,7 +162,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_mod"
+      "registry_name": "pc_mod",
+      "path": "~/Andere"
     },
     {
       "name": "CaseMainboardLeer",
@@ -219,7 +222,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gehause"
+      "registry_name": "gehause",
+      "path": "~/Andere"
     }
   ],
   "variable_elements": [],
