@@ -260,8 +260,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.pcmod.crafter": "Crafter",
       "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
+      "block.pcmod.crafter": "Crafter",
       "block.pcmod.case_mainboard_leer": "Case Mainboard empty",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.schall_rot": "Schall Rot",
@@ -274,14 +274,14 @@
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
-      "block.pcmod.schall_black": "Schall Rot",
+      "block.pcmod.schall_black": "Schall Schwarz",
       "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     },
     "de_de": {
-      "block.pcmod.crafter": "Crafter",
       "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
+      "block.pcmod.crafter": "Crafter",
       "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.schall_rot": "Schall Rot",
