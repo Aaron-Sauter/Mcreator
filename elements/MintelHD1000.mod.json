@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "mintel_hd_1000:default",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Mintel HD 1 0 0 0",
+    "name": "Mintel HD 1000",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -70,7 +70,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "METAL"
     },

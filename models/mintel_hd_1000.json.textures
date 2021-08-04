@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "mintel_hd_1000"
+        "1": "mintel_hd_1000"
       },
       "name": "default"
     }

@@ -3,6 +3,6 @@
   "textures": {
     "all": "pcmod:blocks/mintel_hd_1000",
     "particle": "pcmod:blocks/mintel_hd_1000",
-    "0": "pcmod:blocks/mintel_hd_1000"
+    "1": "pcmod:blocks/mintel_hd_1000"
   }
 }
