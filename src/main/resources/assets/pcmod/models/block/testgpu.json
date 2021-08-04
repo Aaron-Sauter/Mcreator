@@ -1,0 +1,17 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "pcmod:models/item/grafikkarte.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#DrakeLogo": "pcmod:blocks/"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pcmod:blocks/4768300-5-l"
+  }
+}

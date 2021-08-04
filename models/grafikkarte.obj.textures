@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "DrakeLogo": ""
+      },
+      "name": "default"
+    }
+  }
+}
