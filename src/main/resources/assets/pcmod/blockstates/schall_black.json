@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pcmod:block/schall_black"
+    },
+    "facing=east": {
+      "model": "pcmod:block/schall_black",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/schall_black",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/schall_black",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "pcmod:block/schall_black",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "pcmod:block/schall_black",
+      "x": 90
+    }
+  }
+}

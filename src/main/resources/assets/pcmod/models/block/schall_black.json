@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/schall_rot",
+  "textures": {
+    "all": "pcmod:blocks/schall_black",
+    "particle": "pcmod:blocks/schall_black",
+    "0": "pcmod:blocks/schall_black"
+  }
+}

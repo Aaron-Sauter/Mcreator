@@ -33,10 +33,10 @@ import java.util.List;
 import java.util.Collections;
 
 @PcmodModElements.ModElement.Tag
-public class SchallDampferRotBlock extends PcmodModElements.ModElement {
-	@ObjectHolder("pcmod:schall_dampfer_rot")
+public class SchallRotBlock extends PcmodModElements.ModElement {
+	@ObjectHolder("pcmod:schall_rot")
 	public static final Block block = null;
-	public SchallDampferRotBlock(PcmodModElements instance) {
+	public SchallRotBlock(PcmodModElements instance) {
 		super(instance, 21);
 	}
 
@@ -55,10 +55,10 @@ public class SchallDampferRotBlock extends PcmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SNOW).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("schall_dampfer_rot");
+			setRegistryName("schall_rot");
 		}
 
 		@Override
