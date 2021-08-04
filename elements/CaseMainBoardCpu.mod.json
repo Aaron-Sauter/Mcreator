@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "case_mainboard_cpu:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",

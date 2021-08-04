@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "pcmod:block/case_main_board_cpu"
+    },
+    "facing=east": {
+      "model": "pcmod:block/case_main_board_cpu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/case_main_board_cpu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/case_main_board_cpu",
+      "y": 270
     }
   }
 }
