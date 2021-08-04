@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pcmod:block/testgpu"
+    },
+    "facing=east": {
+      "model": "pcmod:block/testgpu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/testgpu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/testgpu",
+      "y": 270
+    }
+  }
+}

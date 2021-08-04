@@ -68,7 +68,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "prozesoren"
+      "registry_name": "prozesoren",
+      "path": "~/Andere"
     },
     {
       "name": "Mainboards",
@@ -77,7 +78,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mainboards"
+      "registry_name": "mainboards",
+      "path": "~/Andere"
     },
     {
       "name": "PCGUI",
@@ -160,7 +162,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pc_mod"
+      "registry_name": "pc_mod",
+      "path": "~/Andere"
     },
     {
       "name": "CaseMainboardLeer",
@@ -219,7 +222,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gehause"
+      "registry_name": "gehause",
+      "path": "~/Andere"
     }
   ],
   "variable_elements": [],
@@ -227,7 +231,7 @@
   "language_map": {
     "en_us": {
       "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
-      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
+      "block.pcmod.case_mainboard_leer": "Case Mainboard empty",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.mintel_250": "Mintel 250",
       "block.pcmod.mainboard": "mainboard",
@@ -236,15 +240,15 @@
       "itemGroup.tabgehause": "Gehause",
       "itemGroup.tabmainboards": "Mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.case_leer": "Case Leer",
+      "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
       "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     },
     "de_de": {
-      "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
-      "block.pcmod.case_mainboard_leer": "Case Mainboard Leer",
+      "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
+      "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.mintel_250": "Mintel 250",
       "block.pcmod.mainboard": "Mainboard",
@@ -253,7 +257,7 @@
       "itemGroup.tabgehause": "Gehause",
       "itemGroup.tabmainboards": "Mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
-      "block.pcmod.case_leer": "Case Leer",
+      "block.pcmod.case_leer": "Gehäuse Leer",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
