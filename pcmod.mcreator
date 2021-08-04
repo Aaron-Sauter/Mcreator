@@ -224,6 +224,16 @@
       "ids": {},
       "registry_name": "testblock",
       "path": "~/GUI"
+    },
+    {
+      "name": "SchallDampferRot",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "schall_dampfer_rot",
+      "path": "~/Andere"
     }
   ],
   "variable_elements": [],
@@ -243,7 +253,6 @@
       "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
       "block.pcmod.pc_case": "PC Case",
-      "block.pcmod.testblock": "TESTBLOCK",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     },
@@ -252,6 +261,7 @@
       "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.mintel_250": "Mintel 250",
+      "block.pcmod.schall_dampfer_rot": "Schall Dampfer Rot",
       "block.pcmod.mainboard": "Mainboard",
       "itemGroup.tabgrafikkarten": "Grafikkarten",
       "block.pcmod.mmd_1050": "MMD 1050",
@@ -269,15 +279,11 @@
     "name": "~",
     "children": [
       {
-        "name": "GrafikKarten",
-        "children": []
-      },
-      {
         "name": "CPU",
         "children": []
       },
       {
-        "name": "Gehause",
+        "name": "Andere",
         "children": []
       },
       {
@@ -285,7 +291,11 @@
         "children": []
       },
       {
-        "name": "Andere",
+        "name": "GrafikKarten",
+        "children": []
+      },
+      {
+        "name": "Gehause",
         "children": []
       }
     ]
