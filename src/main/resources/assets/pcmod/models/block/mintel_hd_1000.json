@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pcmod:blocks/mintel_hd_1000",
+    "up": "pcmod:blocks/mintel_hd_1000",
+    "north": "pcmod:blocks/mintel_hd_1000",
+    "east": "pcmod:blocks/mintel_hd_1000",
+    "south": "pcmod:blocks/mintel_hd_1000",
+    "west": "pcmod:blocks/mintel_hd_1000",
+    "particle": "pcmod:blocks/mintel_hd_1000"
+  }
+}

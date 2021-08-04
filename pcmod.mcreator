@@ -186,6 +186,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "case_main_board_cpu"
+    },
+    {
+      "name": "MintelHD1000",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mintel_hd_1000"
     }
   ],
   "variable_elements": [],
@@ -202,6 +211,7 @@
       "itemGroup.tabmainboards": "mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case Leer",
+      "block.pcmod.mintel_hd_1000": "Mintel HD 1 0 0 0",
       "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "processors",
       "block.pcmod.mmd_100": "MMD 100"
@@ -217,6 +227,7 @@
       "itemGroup.tabmainboards": "Mainboards",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case Leer",
+      "block.pcmod.mintel_hd_1000": "Mintel HD 1 0 0 0",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
     }
