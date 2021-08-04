@@ -216,20 +216,10 @@
       "path": "~/Andere"
     },
     {
-      "name": "SchallDampferRot",
-      "type": "block",
-      "sortid": 21,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "schall_dampfer_rot",
-      "path": "~/Andere"
-    },
-    {
       "name": "TESTBLOCK",
       "type": "block",
       "sortid": 21,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "testblock",
@@ -263,6 +253,7 @@
       "block.pcmod.case_main_board_cpu": "Case MainBoard Cpu",
       "block.pcmod.case_mainboard_leer": "Case Mainboard empty",
       "block.pcmod.mrx_5500": "MRX 5500",
+      "block.pcmod.schall_rot": "Schall Rot",
       "block.pcmod.mintel_250": "Mintel 250",
       "block.pcmod.mainboard": "mainboard",
       "itemGroup.tabgrafikkarten": "graphic cards",
@@ -272,6 +263,7 @@
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
+      "block.pcmod.schall_black": "Schall Rot",
       "block.pcmod.pc_case": "PC Case",
       "itemGroup.tabprozesoren": "Prozesoren",
       "block.pcmod.mmd_100": "MMD 100"
@@ -282,7 +274,6 @@
       "block.pcmod.mrx_5500": "MRX 5500",
       "block.pcmod.schall_rot": "Schall Rot",
       "block.pcmod.mintel_250": "Mintel 250",
-      "block.pcmod.schall_dampfer_rot": "Schall Dampfer Rot",
       "block.pcmod.mainboard": "Mainboard",
       "itemGroup.tabgrafikkarten": "Grafikkarten",
       "block.pcmod.mmd_1050": "MMD 1050",
