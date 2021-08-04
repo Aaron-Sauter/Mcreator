@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Schall Dampfer Rot",
+    "name": "Schall Rot",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "SNOW"
+      "value": "CLOTH"
     },
     "tickRate": 10,
     "tickRandomly": false,

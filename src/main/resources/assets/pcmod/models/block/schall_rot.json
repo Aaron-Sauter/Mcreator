@@ -3,6 +3,6 @@
   "textures": {
     "all": "pcmod:blocks/schall_rot",
     "particle": "pcmod:blocks/schall_rot",
-    "2": "pcmod:blocks/case"
+    "0": "pcmod:blocks/schall_black"
   }
 }

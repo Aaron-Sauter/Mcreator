@@ -4,20 +4,21 @@ package net.mcreator.pcmod.block;
 import net.minecraft.block.material.Material;
 
 @PcmodModElements.ModElement.Tag
-public class TESTBLOCKBlock extends PcmodModElements.ModElement {
+public class SchallBlackBlock extends PcmodModElements.ModElement {
 
-	@ObjectHolder("pcmod:testblock")
+	@ObjectHolder("pcmod:schall_black")
 	public static final Block block = null;
 
-	public TESTBLOCKBlock(PcmodModElements instance) {
-		super(instance, 21);
+	public SchallBlackBlock(PcmodModElements instance) {
+		super(instance, 22);
 
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(PCModItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(GrafikkartenItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -28,15 +29,15 @@ public class TESTBLOCKBlock extends PcmodModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 
-			setRegistryName("testblock");
+			setRegistryName("schall_black");
 		}
 
 		@Override
@@ -60,7 +61,7 @@ public class TESTBLOCKBlock extends PcmodModElements.ModElement {
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		@Override
