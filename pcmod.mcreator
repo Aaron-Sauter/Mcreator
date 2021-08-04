@@ -219,8 +219,8 @@
       "name": "TESTBLOCK",
       "type": "block",
       "sortid": 21,
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "ids": {},
       "registry_name": "testblock",
       "path": "~/GUI"

@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.block.Blocks;
 
-import net.mcreator.pcmod.block.CaseLeerBlock;
 import net.mcreator.pcmod.PcmodModElements;
 
 @PcmodModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class PCModItemGroup extends PcmodModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CaseLeerBlock.block, (int) (1));
+				return new ItemStack(Blocks.DIAMOND_BLOCK, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
