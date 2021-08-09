@@ -254,6 +254,16 @@
       "ids": {},
       "registry_name": "crafter",
       "path": "~/Andere"
+    },
+    {
+      "name": "TRX3090",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trx_3090",
+      "path": "~/GrafikKarten"
     }
   ],
   "variable_elements": [],
@@ -271,6 +281,7 @@
       "block.pcmod.mmd_1050": "MMD 1050",
       "itemGroup.tabgehause": "Gehause",
       "itemGroup.tabmainboards": "Mainboards",
+      "block.pcmod.trx_3090": "TRX 3090",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Case empty",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
@@ -291,6 +302,7 @@
       "block.pcmod.mmd_1050": "MMD 1050",
       "itemGroup.tabgehause": "Gehause",
       "itemGroup.tabmainboards": "Mainboards",
+      "block.pcmod.trx_3090": "TRX 3090",
       "itemGroup.tabpc_mod": "PC Mod",
       "block.pcmod.case_leer": "Gehäuse Leer",
       "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
