@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pcmod:block/trx_3090"
+    },
+    "facing=east": {
+      "model": "pcmod:block/trx_3090",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/trx_3090",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/trx_3090",
+      "y": 270
+    }
+  }
+}
