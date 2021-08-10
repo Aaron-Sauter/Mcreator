@@ -1,5 +1,5 @@
 {
-  "parent": "pcmod:custom/schall_rot",
+  "parent": "pcmod:custom/schall_schwarz",
   "textures": {
     "all": "pcmod:blocks/schall_black",
     "particle": "pcmod:blocks/schall_black",

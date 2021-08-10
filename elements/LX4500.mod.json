@@ -2,15 +2,15 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "schall_black",
+    "texture": "lx_4500",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "schall_schwarz:default",
-    "rotationMode": 2,
+    "customModelName": "lx_4500:default",
+    "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Schall Schwarz",
+    "name": "LX 4500",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "CLOTH"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -70,9 +70,9 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "CLOTH"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

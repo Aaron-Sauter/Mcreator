@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/ggt_5598",
+  "textures": {
+    "all": "pcmod:blocks/ggt_5598",
+    "particle": "pcmod:blocks/ggt_5598",
+    "0": "pcmod:blocks/ggt_5598"
+  }
+}
