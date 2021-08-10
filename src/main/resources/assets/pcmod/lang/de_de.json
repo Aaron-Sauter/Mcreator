@@ -2,6 +2,7 @@
   "block.pcmod.case_main_board_cpu": "Gehäuse MainBoard Cpu",
   "block.pcmod.crafter": "Crafter",
   "block.pcmod.case_mainboard_leer": "Gehäuse Mainboard Leer",
+  "block.pcmod.ggt_5598": "GGT 5590",
   "block.pcmod.mrx_5500": "MRX 5500",
   "block.pcmod.schall_rot": "Schall Rot",
   "block.pcmod.mintel_250": "Mintel 250",
@@ -15,6 +16,7 @@
   "block.pcmod.case_leer": "Gehäuse Leer",
   "block.pcmod.mintel_hd_1000": "Mintel HD 1000",
   "block.pcmod.schall_black": "Schall Rot",
+  "block.pcmod.lx_4500": "LX 4500",
   "block.pcmod.testblock": "TESTBLOCK",
   "itemGroup.tabprozesoren": "Prozesoren",
   "block.pcmod.mmd_100": "MMD 100"
