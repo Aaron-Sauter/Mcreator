@@ -4,12 +4,12 @@ package net.mcreator.pcmod.block;
 import net.minecraft.block.material.Material;
 
 @PcmodModElements.ModElement.Tag
-public class TRX3090Block extends PcmodModElements.ModElement {
+public class GGT5598Block extends PcmodModElements.ModElement {
 
-	@ObjectHolder("pcmod:trx_3090")
+	@ObjectHolder("pcmod:ggt_5598")
 	public static final Block block = null;
 
-	public TRX3090Block(PcmodModElements instance) {
+	public GGT5598Block(PcmodModElements instance) {
 		super(instance, 24);
 
 	}
@@ -29,16 +29,15 @@ public class TRX3090Block extends PcmodModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.doesNotBlockMovement().notSolid().setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 
-			setRegistryName("trx_3090");
+			setRegistryName("ggt_5598");
 		}
 
 		@Override
@@ -62,7 +61,7 @@ public class TRX3090Block extends PcmodModElements.ModElement {
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		@Override

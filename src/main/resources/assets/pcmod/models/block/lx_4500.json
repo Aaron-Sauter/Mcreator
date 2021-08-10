@@ -1,0 +1,8 @@
+{
+  "parent": "pcmod:custom/lx_4500",
+  "textures": {
+    "all": "pcmod:blocks/lx_4500",
+    "particle": "pcmod:blocks/lx_4500",
+    "0": "pcmod:blocks/lx_4500"
+  }
+}

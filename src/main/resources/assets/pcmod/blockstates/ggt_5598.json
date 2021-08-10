@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pcmod:block/ggt_5598"
+    },
+    "facing=east": {
+      "model": "pcmod:block/ggt_5598",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/ggt_5598",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/ggt_5598",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "pcmod:block/ggt_5598",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "pcmod:block/ggt_5598",
+      "x": 90
+    }
+  }
+}

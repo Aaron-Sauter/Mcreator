@@ -4,13 +4,13 @@ package net.mcreator.pcmod.block;
 import net.minecraft.block.material.Material;
 
 @PcmodModElements.ModElement.Tag
-public class TRX3090Block extends PcmodModElements.ModElement {
+public class LX4500Block extends PcmodModElements.ModElement {
 
-	@ObjectHolder("pcmod:trx_3090")
+	@ObjectHolder("pcmod:lx_4500")
 	public static final Block block = null;
 
-	public TRX3090Block(PcmodModElements instance) {
-		super(instance, 24);
+	public LX4500Block(PcmodModElements instance) {
+		super(instance, 25);
 
 	}
 
@@ -29,40 +29,17 @@ public class TRX3090Block extends PcmodModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.doesNotBlockMovement().notSolid().setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
 					.setOpaque((bs, br, bp) -> false));
 
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-
-			setRegistryName("trx_3090");
+			setRegistryName("lx_4500");
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
-		}
-
-		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
-		}
-
-		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override
