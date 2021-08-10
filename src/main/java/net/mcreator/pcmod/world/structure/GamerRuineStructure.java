@@ -56,7 +56,7 @@ public class GamerRuineStructure extends PcmodModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 1000000) {
+					if ((random.nextInt(1000000) + 1) <= 20000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -65,7 +65,7 @@ public class GamerRuineStructure extends PcmodModElements.ModElement {
 							j -= 1;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 10, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 0, j + -10, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
